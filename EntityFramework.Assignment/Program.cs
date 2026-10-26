@@ -4,7 +4,8 @@
     {
         static void Main(string[] args)
         {
-            
+            using BookStoreDbContext context = new BookStoreDbContext();
+
         }
     }
 }
